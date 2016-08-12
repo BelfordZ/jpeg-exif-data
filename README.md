@@ -1,8 +1,6 @@
 # Setup
 ```
-brew install graphicsmagick
-
-
 npm install
-npm start
+
+node bin/cli.js -i './gps_images/**/*.*' -o './out.html' -f 'html'
 ```
